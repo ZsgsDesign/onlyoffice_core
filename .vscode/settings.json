@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.yrm": "xml",
+        "*.poem": "json",
+        "*.phar": "php",
+        "xstring": "cpp"
+    }
+}
