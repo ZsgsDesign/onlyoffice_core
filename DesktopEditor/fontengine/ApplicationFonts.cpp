@@ -1432,6 +1432,7 @@ void CFontList::LoadFromArrayFiles(std::vector<std::wstring>& oArray, int nFlag)
                                 else if (iter == pFontInfo->names.end())
                                 {
                                     pFontInfo->names.push_back(sNameW);
+                                    printf("%s: %s\n", U_TO_UTF8(wsFamilyName).c_str(), U_TO_UTF8(sNameW).c_str());
 
 #if 0
                                     FILE* f = fopen("D:\\111.txt", "a+");
